@@ -1,23 +1,34 @@
-## social-network-api
+# Social Network API
+  
+  ![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
-# User Story  
-AS A social media startup  
-I WANT an API for my social network that uses a NoSQL database  
-SO THAT my website can handle large amounts of unstructured data  
 
-# Acceptance Criteria
-GIVEN a social network API.  
-WHEN I enter the command to invoke the application  
-THEN my server is started and the Mongoose models are synced to the MongoDB database  
-WHEN I open API GET routes in Insomnia for users and thoughts  
-THEN the data for each of these routes is displayed in a formatted JSON  
-WHEN I test API POST, PUT, and DELETE routes in Insomnia  
-THEN I am able to successfully create, update, and delete users and thoughts in my database  
-WHEN I test API POST and DELETE routes in Insomnia  
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list  
+  ## Description:
+  API for a social network web application where users can share their thoughts, react to friends thoughts, and create a friend list.
 
-# Walkthough Video  
-(video)
+  ## Table of Contents 
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contribution](#contribution)
+  - [Testing](#testing)
+  - [Additional Info](#additional-info)
+  - [Questions](#questions)
+  ## Installation:
+  Clone this repository, npm install, and start the server "node server.js" in the command line. The server will start running on `http://localhost:3000`
+  ## Usage:
+  [Video](See video [here](www.google.com/videocomingsoon))
 
-# GitHub Repository URL  
-https://github.com/prestontravis/social-network-api  
+  ## License
+    This application is covered by the MIT license.
+
+  ## Contribution:
+  If you would like to contribute please contact me [here](travisprestonofficial@gmail.com)
+  ## Testing:
+  You can test the application by running "node server.js" in the terminal.
+  ## Additional Info:
+  - Github: [prestontravis](https://github.com/prestontravis)
+  - Email: travisprestonofficial@gmail.com
+  ## Questions:
+  If you wish to contact me please send me an e-mail [here](mailto:travisprestonofficial@gmail.com)
+
